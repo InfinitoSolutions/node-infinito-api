@@ -47,7 +47,8 @@
       "from",
       "to",
       "amount",
-      "providers"
+      "providers",
+      "fix_rate"
     ]
   },
   {
