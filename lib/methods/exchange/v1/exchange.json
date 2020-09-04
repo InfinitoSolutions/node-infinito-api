@@ -42,7 +42,7 @@
   {
     "name": "estimateTransaction",
     "method": "GET",
-    "url": "/exchange/v1/transactions/estimate?from={from}&to={to}&amount={amount}&providers={providers}",
+    "url": "/exchange/v1/transactions/estimate?from={from}&to={to}&amount={amount}&providers={providers}&fix_rate={fix_rate}",
     "params": [
       "from",
       "to",
@@ -54,11 +54,12 @@
   {
     "name": "getMinAmount",
     "method": "GET",
-    "url": "/exchange/v1/transactions/min-amount?provider={provider}&from={from}&to={to}",
+    "url": "/exchange/v1/transactions/min-amount?provider={provider}&from={from}&to={to}&fix_rate={fix_rate}",
     "params": [
       "provider",
       "from",
-      "to"
+      "to",
+      "fix_rate"
     ]
   },
   {
